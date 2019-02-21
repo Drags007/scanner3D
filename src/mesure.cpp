@@ -1,20 +1,19 @@
 #include "ros/ros.h"
 #include <iostream>
 #include <stdio.h>
+#include "include/image.hpp"
 
 using namespace std;
 
+
 int main (int argc, char**argv)
 {
-	/**
-	*ros::init() initialise le noeud dans ros**/
-	ros::init(argc,argv,"mesure");
-
-	/**NodeHandle est la commande pour construire le noeud**/
-	ros::NodeHandle n;
-
+	ros::init(argc, argv, "mesure");
+	//instantiation of the image class
+	image img;
 	while(ros::ok())
 	{
+		
 		ros::spinOnce();
 	}
 	return 0;

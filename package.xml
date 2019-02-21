@@ -1,0 +1,14 @@
+<package format="2">
+	<name>scanner3D</name>
+	<version>0.0.1</version>
+	<description>
+	This Package provide a 3D scan of an object with an Kinect 360
+	</description>
+	<maintainer email="antoine.robin01@gmail.com">Antoine ROBIN</maintainer>
+	<license>GNU GPLv3.0</license>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	<depend>roscpp</depend>
+	<depend>std_msgs</depend>
+
+</package>
